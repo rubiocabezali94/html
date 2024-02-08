@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gimnasio</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+            background-image: url(../imagenes/fondo.jpg);
+            background-size: cover;
+            
+        }
+        aside{ 
+            align-content: center;
+            background-color: yellow ;
+            height: 130px;
+            padding: 20px;
+            text-align: center;
+            margin:20px;
+            border: 5px solid black;
+        }
+
+        section{
+            border: 5px solid yellow;
+            background-color: #171717;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin: 20px;
+            
+        }
+        header{
+            border: 5px solid yellow;
+            background-color: #171717;
+            color: #fff;
+            padding: px;
+            text-align: center;
+            
+        }
+        nav{
+            background-color: yellow;
+            padding: 10px;
+            font-size: larger;
+        }
+        article{
+            margin-top: 20px;
+            margin: 40px;
+        }
+        
+        footer, p{
+            background-color: #171717;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            margin: 30px;
+            font-size: larger;
+            
+        }
+        nav a {
+            display: inline-block;
+            color: black; 
+            text-align: center; 
+            padding: 0px 10px;
+            text-decoration: none; 
+        }
+        #logo{
+            display: inline-block;
+            vertical-align: middle;
+        }
+        h1{
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 50px;
+        
+        }
+        #list-container a{
+            text-decoration: none;
+            display:inline-block;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+        <h1>PIPE'S GYM</h1>
+
+        <div id="logo">
+            <a href="../index.html"><img src="../imagenes/logo.png" alt="Logo" width="150" height="150"> </a>
+        </div>
+
+        <nav>
+            <a href="#">Mapa</a>
+            <a href="../horario/horario.html">Horario</a>
+            <a href="../precios/precios.html">Precios</a>
+            <a href="../instalaciones/instalaciones.html">Instalaciones</a>
+            <a href="../deportes/deportes.html">Deportes</a>
+        </nav>
+
+    </header>
+
+    <section>
+        <h1>Gimnasios por España</h1>
+        <p>
+            En el siguiente mapa se muestran las ciudades en las que disponemos de gimnasio.
+            Proximamente se irán ampliando las localizaciones.
+        </p>
+        <img src="imagenes/mapa.jpeg" alt="Mapa gimnasios" width="300" height="300">
+        <footer>Ciudades: Sevilla, Santiago de Compostela y Barcelona</footer>
+    </section>
+
+
+
+
+    <aside id="list-container">
+        <h4>Mas información...</h4>
+        <ul >
+            <li><a href="#">Solicitar cita</a></li>
+            <li><a href="#">Puertas abiertas</a></li>
+            <li><a href="#">Redes Sociales</a></li>
+        </ul>    
+    </aside>
+
+    
+
+    <footer>
+        <p>&copy; 2024 Pipe's Gym. Todos los derechos reservados.</p>
+    </footer>
+
+
+
+
+
+
+</body>
+
+</html>

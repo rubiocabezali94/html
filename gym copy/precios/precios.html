@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gimnasio</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+            background-image: url(../imagenes/fondo.jpg);
+            background-size: cover;
+            
+        }
+        aside{ 
+            align-content: center;
+            background-color: yellow ;
+            height: 100px;
+            padding: 30px;
+            text-align: center;
+            margin:20px;
+            border: 5px solid black;
+        }
+
+        section{
+            border: 5px solid yellow;
+            background-color: #171717;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin: 20px;
+            
+        }
+        header{
+            border: 5px solid yellow;
+            background-color: #171717;
+            color: #fff;
+            padding: px;
+            text-align: center;
+            
+        }
+        nav{
+            background-color: yellow;
+            padding: 10px;
+            font-size: larger;
+        }
+        article{
+            margin-top: 20px;
+            margin: 40px;
+        }
+        
+        footer, p{
+            background-color: #171717;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            margin: 20px;
+            font-size: larger;
+            
+        }
+        nav a {
+            display: inline-block;
+            color: black; 
+            text-align: center; 
+            padding: 0px 10px;
+            text-decoration: none; 
+        }
+        #logo{
+            display: inline-block;
+            vertical-align: middle;
+        }
+        h1{
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 50px;
+        
+        }
+        #list-container a{
+            text-decoration: none;
+            display:inline-block;
+            vertical-align: middle;
+        }
+       
+    </style>
+</head>
+<body>
+    <header>
+
+        <h1>PIPE'S GYM</h1>
+
+        <div id="logo">
+            <a href="../index.html"><img src="../imagenes/logo.png" alt="Logo" width="150" height="150"> </a>
+        </div>
+
+        <nav>
+            <a href="../mapa/mapa.html">Mapa</a>
+            <a href="../horario/horario.html">Horario</a>
+            <a href="#">Precios</a>
+            <a href="../instalaciones/instalaciones.html">Instalaciones</a>
+            <a href="../deportes/deportes.html">Deportes</a>
+        </nav>
+
+    </header>
+
+    <section>
+        <div style="display: flex; margin-bottom: 30px;">
+            <table cellspacing="10" cellpadding="10" width="25%" style="border-collapse: collapse; border: 5px dashed black;
+            margin-top: 40px; background-color: white; color:black; font-weight: bolder; margin-left: 50px;">        <tr>
+                    <th style="color: chocolate; text-align: center; font-size: 40px;">BASIC-PIPE<br>EASY <br> </th>
+                </tr>
+                <br>
+                <tr>
+                    <td>Pago anual por <br> adelantado</td>
+                </tr>
+                <tr>
+                    <td>12 meses de <br> permanencia</td>
+                </tr>
+                <tr>
+                    <td>Clases colectivas <br> virtuales</td>
+                </tr>
+                <tr>
+                    <td>Cuota de inscripción <br> 19,99$ una sola vez</td>
+                </tr>
+                <br>
+                <tr style="text-align: center; font-weight: 900;">
+                    <td>19,99 /mes <br> 239,88/año</td>
+                </tr>
+            </table>
+
+            <table cellspacing="10" cellpadding="10" width="25%" style="border-collapse: collapse; border: 5px dashed black;
+            margin-top: 40px; background-color: white; color:black; font-weight: bolder; margin-left: 150px;">        <tr>
+                    <th style="color: chocolate; text-align: center; font-size: 40px;">BASIC-PIPE<br>SMART <br> </th>
+                </tr>
+                <br>
+                <tr>
+                    <td>Pago mes a mes</td>
+                </tr>
+                <tr>
+                    <td>12 meses de <br> permanencia</td>
+                </tr>
+                <tr>
+                    <td>Clases colectivas <br> virtuales</td>
+                </tr>
+                <tr>
+                    <td>Cuota de inscripción <br> 19,99$ una sola vez</td>
+                </tr>
+                <br>
+                <tr style="text-align: center; font-weight: 900;">
+                    <td>21,99 /mes</td>
+                </tr>
+            </table>
+
+            <table cellspacing="10" cellpadding="10" width="25%" style="border-collapse: collapse; border: 5px dashed black;
+            margin-top: 40px; background-color: white; color:black; font-weight: bolder; margin-left: 150px;">        <tr>
+                    <th style="color: chocolate; text-align: center; font-size: 40px;">BASIC-PIPE<br>FLEX <br> </th>
+                </tr>
+                <br>
+                <tr>
+                    <td>Pago mes a mes</td>
+                </tr>
+                <tr>
+                    <td>Tarifa sin permanencia</td>
+                </tr>
+                <tr>
+                    <td>Clases colectivas <br> virtuales</td>
+                </tr>
+                <tr>
+                    <td>Cuota de inscripción <br> 39,99$ una sola vez</td>
+                </tr>
+                <br>
+                <tr style="text-align: center; font-weight: 900;">
+                    <td>25,99 /mes</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <aside id="list-container">
+        <h4>Mas información...</h4>
+        <ul>
+            <li><a href="#">Solicitar cita</a></li>
+            <li><a href="#">Puertas abiertas</a></li>
+            <li><a href="#">Redes Sociales</a></li>
+        </ul>    
+    </aside>
+
+    
+
+    <footer>
+        <p>&copy; 2024 Pipe's Gym. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
